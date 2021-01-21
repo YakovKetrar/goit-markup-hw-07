@@ -1,0 +1,31 @@
+.example {
+    padding: 94px 0;
+
+    &-list {
+        display: flex;
+    }
+
+    &-item {
+        position: relative;
+    }
+    &-item:not(:last-child){
+        margin-right: 30px;
+    }
+    &-item p {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 70px;
+        position: absolute;
+        bottom: 0;
+        background: $backgrd-black;
+
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.2;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: $main-white;
+    }
+}
