@@ -1,0 +1,73 @@
+.team {
+    padding: 94px 15px;
+    background-color: #F5F4FA;
+}
+.team-list {
+    display: flex;
+}
+
+.team-etem {
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+    background-color: $main-white;
+    box-shadow: 1px 1px 2px #e0dfdf;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.team-etem:not(:last-child){
+    margin-right: 30px;
+}
+
+.person {
+    padding: 30px 10px;
+    text-align: center;
+}
+.person-name {
+    margin-bottom: 10px;
+
+    color: $main-black;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+}
+.person-duty {
+    margin-bottom: 16px;
+
+    color: $main-gray;
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+}
+.person-list {
+    display: flex;
+    justify-content: center;
+}
+.person-links {
+    height: 44px;
+    width: 44px;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transition: background-color 250ms $timing-function;
+    &:not(:last-child) {
+        margin-right: 10px;  
+    }
+    &:hover {
+        background-color: $main-blue;
+    }
+}
+.person-svg {
+    height: 44px;
+    padding: 12px 12px;
+    fill: $links-normal;
+    transition: fill 250ms $timing-function;
+
+    &:hover {
+    height: 44px;
+    padding: 12px 12px;
+    fill: $main-white;
+    }
+}

@@ -1,0 +1,31 @@
+.clients {
+    padding: 94px 15px;
+}
+.clients-list {
+    display: flex;
+    justify-content: space-between;
+    &:not(:last-child) {
+        margin-right: 30px;
+    }
+}
+.clients-link {
+    width: 170px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid $links-normal;
+    border-radius: 4px;
+    color: $links-normal;
+    transition: all 250ms $timing-function;
+
+    &:hover {
+        color: $main-blue;
+        border: 1px solid $main-blue;
+    }
+}
+.clients-svg {
+    width: 60%;
+    height: 60%;
+    fill: currentColor;
+}

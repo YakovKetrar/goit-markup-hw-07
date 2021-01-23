@@ -1,6 +1,5 @@
 .head { 
-    padding: 200px 0; 
-    margin: 0 auto;
+    padding: 200px 15px; 
     max-width: 1600px;
     max-height: 600px;
 
@@ -15,27 +14,27 @@
     background-size: cover;
 
     text-align: center;
-    & h1 {
-        font-weight: 900;
-        font-size: 44px;
-        line-height: 1.4;
-        text-align: center;
-        letter-spacing: 0.06em;
-        text-transform: uppercase;
-        color: $main-white;
-        margin-top: 0;
-    }
-    & button {
-        font-family: inherit;
-        color: $main-white;
-        background: $main-blue;
-        font-weight: 700;
-        font-size: 16px;
-        line-height: 2;
-        border: 0;
-        width: 200px;
-        height: 50px;
-        border-radius: 4px;
-        letter-spacing: 0.06em;
+.main-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: $main-white;
+    margin-top: 0;
+}
+.modul-butoon {
+    font-family: inherit;
+    color: $main-white;
+    background: $main-blue;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 2;
+    border: 0;
+    width: 200px;
+    height: 50px;
+    border-radius: 4px;
+    letter-spacing: 0.06em;
 }
 }

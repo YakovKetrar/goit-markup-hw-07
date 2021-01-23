@@ -1,15 +1,16 @@
 .advantages {
     padding-top: 94px;
-    &-list{
-        display: flex;
+}
+.advantages-list{
+    display: flex;
     }
-    &-etem {
-        width: 270px;
-    }
-    &-etem:not(:last-child){
+.advantages-etem {
+    width: 270px;
+
+    &:not(:last-child){
         margin-right: 30px;
     }
-    &-etem::before {
+    &::before {
         margin-bottom: 30px;
         display: block;
         height: 120px;
@@ -18,32 +19,32 @@
         background-position: center;
         background-color: $backgrnd-gray;
     }
-    &-etem:nth-child(1)::before {
+    &:nth-child(1)::before {
         background-image: url(../images/icon/antenna.svg); 
     }
-    &-etem:nth-child(2)::before {
+    &:nth-child(2)::before {
         background-image: url(../images/icon/clock.svg); 
     }
-    &-etem:nth-child(3)::before {
+    &:nth-child(3)::before {
         background-image: url(../images/icon/diagram.svg); 
     }
-    &-etem:nth-child(4)::before {
+    &:nth-child(4)::before {
         background-image: url(../images/icon/astronaut.svg); 
     }
+}
 
-    &-etem p{
-        color: var(--gray);
-        font-size: 14px;
-        line-height: 1.7;
-        letter-spacing: 0.03em;
-    }
-    &-etem h3{
-        font-weight: 700;
-        font-size: 14px;
-        line-height: 1.2;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        color: $main-black;
-        margin-bottom: 10px;
-    }
+.advantages-etem-discription {
+    color: var(--gray);
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+}
+.advantages-etem-title{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: $main-black;
+    margin-bottom: 10px;
 }

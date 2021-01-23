@@ -1,0 +1,30 @@
+.logo {
+    font-family: Raleway,  sans-serif;   
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    margin-right: 93px;
+    &-header {
+        color: #000000;
+    }
+    &-footer {
+        color: #000000;
+    }
+}
+.logo span {
+    color: $main-blue;
+}
+
+
+.logo-in-footer {
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color:  $main-white;
+    
+}
+.logo-in-footer span {
+    color:  $main-white;
+} 

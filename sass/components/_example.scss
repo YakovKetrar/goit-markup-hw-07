@@ -1,31 +1,32 @@
 .example {
-    padding: 94px 0;
+    padding: 94px 15px;
+}
 
-    &-list {
+.example-list {
         display: flex;
-    }
+}
 
-    &-item {
-        position: relative;
-    }
-    &-item:not(:last-child){
+.example-item {
+    position: relative;
+
+    &:not(:last-child){
         margin-right: 30px;
     }
-    &-item p {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 100%;
-        height: 70px;
-        position: absolute;
-        bottom: 0;
-        background: $backgrd-black;
-
-        font-weight: 700;
-        font-size: 14px;
-        line-height: 1.2;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        color: $main-white;
-    }
+}
+.example-item-discription {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 70px;
+    position: absolute;
+    bottom: 0;
+    background: $backgrd-black;
+    
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: $main-white;
 }
