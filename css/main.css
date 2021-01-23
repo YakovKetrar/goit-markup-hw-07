@@ -45,35 +45,26 @@ h3 {
 
 .logo {
   font-family: Raleway,  sans-serif;
-  font-size: 26px;
-  line-height: 1.2;
-  letter-spacing: 0.03em;
-  margin-right: 93px;
-}
-
-.logo-header {
-  color: #000000;
-}
-
-.logo-footer {
-  color: #000000;
-}
-
-.logo span {
-  color: #2196F3;
-}
-
-.logo-in-footer {
-  font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
+}
+
+.logo-header {
+  color: #212121;
+}
+
+.logo-header-firstpart {
+  color: #2196F3;
+}
+
+.logo-footer {
   color: #FFFFFF;
 }
 
-.logo-in-footer span {
-  color: #FFFFFF;
+.logo-footer-firstpart {
+  color: #2196F3;
 }
 
 .header {
@@ -95,6 +86,7 @@ h3 {
 
 .pages-list {
   display: flex;
+  margin-left: 93px;
 }
 
 .pages-etem:not(:last-child) {
@@ -174,6 +166,7 @@ h3 {
 
 .head {
   padding: 200px 15px;
+  margin: 0 auto;
   max-width: 1600px;
   max-height: 600px;
   background: #2F303A;
@@ -183,7 +176,7 @@ h3 {
   text-align: center;
 }
 
-.head .main-title {
+.main-title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
@@ -194,7 +187,7 @@ h3 {
   margin-top: 0;
 }
 
-.head .modul-butoon {
+.modul-butoon {
   font-family: inherit;
   color: #FFFFFF;
   background: #2196F3;

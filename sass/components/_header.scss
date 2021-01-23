@@ -8,6 +8,7 @@
 }
 
 .pages {
+
     display: flex;
     align-items: center;
     font-weight: 500;
@@ -17,6 +18,7 @@
 }
 .pages-list {
     display: flex;
+    margin-left: 93px;
 }
 .pages-etem:not(:last-child) {
     margin-right: 50px;
